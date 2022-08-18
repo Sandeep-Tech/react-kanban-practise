@@ -6,11 +6,13 @@ import "@lourenci/react-kanban/dist/styles.css";
 
 import ControlledBoard from "./ControlledBoard";
 import UncontrolledBoard from "./UncontrolledBoard";
+import DexieDemo from "./DexieDemo";
 
 function App() {
   return (
     <>
-      <h4>Example of an uncontrolled board</h4>
+      <DexieDemo />
+      {/* <h4>Example of an uncontrolled board</h4>
       <UncontrolledBoard />
 
       <hr />
@@ -21,7 +23,7 @@ function App() {
         In this kind of board, you can do whatever you want. We just mirror your
         board state.
       </p>
-      <ControlledBoard />
+      <ControlledBoard /> */}
     </>
   );
 }
