@@ -10,13 +10,14 @@ const DexieDemo = () => {
   async function addNewFood(ev) {
     ev.preventDefault();
     ev.target[0].value = "";
-    const newFoods = [...foods, newFoodItem];
+    // const newFoods = [...foods, newFoodItem];
+    const newFoods = newFoodItem;
     try {
       const id = await db.favFoodItems.add(newFoods);
       console.log(`added ${newFoodItem} to the DB with ID ${id}`);
     } catch (err) {
       console.log(`could not add ${newFoodItem} to the DB.`);
-      console.err(err);
+      console.error(err);
     }
   }
 
