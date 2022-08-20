@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "@lourenci/react-kanban/dist/styles.css";
 // Use your own styles to override the default styles
 // import "./styles.css";
 

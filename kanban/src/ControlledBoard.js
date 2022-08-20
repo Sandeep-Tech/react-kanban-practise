@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Board, { moveCard, addCard, addColumn } from "@lourenci/react-kanban";
+import "@lourenci/react-kanban/dist/styles.css";
+
 // import board from "./board";
 
 let board = {

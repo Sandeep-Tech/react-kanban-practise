@@ -1,5 +1,7 @@
 import React from "react";
 import Board from "@lourenci/react-kanban";
+import "@lourenci/react-kanban/dist/styles.css";
+
 import board from "./board";
 
 function UncontrolledBoard() {
